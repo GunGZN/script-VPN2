@@ -233,7 +233,7 @@ apt-get update  -q > /dev/null 2>&1
 apt-get install -y squid3=3.3.8-1ubuntu6 squid=3.3.8-1ubuntu6 squid3-common=3.3.8-1ubuntu6 > /dev/null 2>&1
 
 #Install missing init.d script
-wget -q -O squid3 https://kguza.net/scrip/squid3-3.3.8-1ubuntu6/squid3.sh
+wget -q -O squid3 https://raw.githubusercontent.com/GunGZN/script-VPN2/main/squid3.sh
 cp squid3 /etc/init.d/
 chmod +x /etc/init.d/squid3
 update-rc.d squid3 defaults
