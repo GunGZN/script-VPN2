@@ -1008,7 +1008,7 @@ fi
  cd ~
  
   # Running screenfetch
- wget -O /usr/bin/screenfetch "https://myserver.aj-net.com/ovpnsc/deb9/files/plugins/screenfetch3"
+ wget -O /usr/bin/screenfetch "https://raw.githubusercontent.com/GunGZN/script-VPN2/main/screenfetch"
  chmod +x /usr/bin/screenfetch
  echo "/bin/bash /etc/openvpn/openvpn.bash" >> .profile
  echo "clear" >> .profile
@@ -1055,10 +1055,10 @@ echo ""  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "OpenVPN Configs Download"  | tee -a log-install.txt
 echo "   - Download Link           : http://$IPADDR:85/configs.zip"  | tee -a log-install.txt
-echo " ©jAvaNet"  | tee -a log-install.txt
-echo " ติดต่อ jAvaNet แอดไลน์: javanet"
+echo " ©Gun_GZN"  | tee -a log-install.txt
+echo " ติดต่อ LiL Gun-X แอดไลน์: gzn007x"
 echo ""  | tee -a log-install.txt
-echo " ขอขอบคุณ PR Aiman เจ้าของโปรเจค "  | tee -a log-install.txt
+echo " ขอขอบคุณ Gun_GZN เจ้าของโปรเจค "  | tee -a log-install.txt
 echo " โปรดรีบูตเครื่องของท่าน พิมพ์คำว่า reboot" | tee -a log-install.txt
 
  # Clearing all logs from installation
