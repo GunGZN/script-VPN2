@@ -1,6 +1,6 @@
 #!/bin/bash
-# Script by jAvaNet 
-# Line: javanet
+# Script by LiL Gun-X
+# Line: gzn007x
 # ขอขอบคุณทีมงานที่ค่อยซัพพอร์ตและให้กำลังใจ
 
 #############################
@@ -898,7 +898,7 @@ cd ~
 function ScriptMessage(){
  echo -e " [\e[1;32m$MyScriptName VPS Installer\e[0m]"
  echo -e ""
- echo -e "แอดไลน์:javanet"
+ echo -e "แอดไลน์:gzn007x"
  echo -e ""
 }
 
@@ -1023,7 +1023,7 @@ echo " "
 echo "Installation has been completed!!"
 echo "--------------------------------------------------------------------------------"
 echo "                            Debian Premium Script                               "
-echo "                                  -jAvaNet-                                     "
+echo "                                  -LiL Gun-X-                                     "
 echo "--------------------------------------------------------------------------------"
 echo ""  | tee -a log-install.txt
 echo "Server Information"  | tee -a log-install.txt
