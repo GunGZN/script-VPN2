@@ -1015,10 +1015,10 @@ fi
  # Showing additional information from installating this script
 echo " "
 echo "Installation has been completed!!"
-echo "--------------------------------------------------------------------------------"
-echo "                            Debian Premium Script                               "
+echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
+echo "                            Premium Script                               "
 echo "                                  -LiL Gun-X-                                     "
-echo "--------------------------------------------------------------------------------"
+echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 echo ""  | tee -a log-install.txt
 echo "Server Information"  | tee -a log-install.txt
 echo "   - Timezone    : Asia/Bangkok (GMT +7)"  | tee -a log-install.txt
