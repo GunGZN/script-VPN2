@@ -60,6 +60,7 @@ function InstUpdates(){
  apt-get remove --purge ufw firewalld -y
 
  # Install Speedtest
+ apt install speedtest-cli
  apt install python-pip
  apt install ptyhon3-pip
  pip install speedtest-cli
