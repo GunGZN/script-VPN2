@@ -2633,7 +2633,6 @@ asciiText () {
 "$c2 Script by Gun_GZN"
 "$c2 @LINE:gzn007"
 "$c2 พิมพ์ 'menu' เผื่อเปิดคำสั่ง"
-"$c2 ")
 		;;
 
 		"KDE neon")
@@ -2693,7 +2692,6 @@ asciiText () {
 " $c2 Script by Gun_GZN"
 " $c2 @LINE:gzn007"
 " $c2 พิมพ์ 'menu' เผื่อเปิดคำสั่ง"
-" $c2 ")
 			;;
 
 		"Devuan")
